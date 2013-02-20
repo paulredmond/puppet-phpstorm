@@ -12,7 +12,7 @@ class phpstorm {
     provider => 'appdmg'
   }
 
-  exec { "echo atlassian-ide-plugin.xml >> ${git::config::configdir}/gitignore"
+  exec { "echo atlassian-ide-plugin.xml >> ${git::config::configdir}/gitignore":
     require => File["${git::config::configdir}/gitignore"]
   }
 }
