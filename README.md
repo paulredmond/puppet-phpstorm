@@ -9,3 +9,4 @@ include phpstorm
 ## Required Puppet Modules
 
 * boxen
+* boxen/puppet-git
