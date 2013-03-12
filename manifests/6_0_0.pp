@@ -4,7 +4,7 @@
 #
 #   include phpstorm::6_0_0
 class phpstorm::6_0_0 {
-  package { 'PhpStorm':
+  package { 'PhpStorm_6_0_0':
     source   => 'http://download.jetbrains.com/webide/PhpStorm-6.0.dmg',
     provider => 'appdmg'
   }
